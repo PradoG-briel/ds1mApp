@@ -1,0 +1,10 @@
+package br.senai.sp.jandira;
+import br.senai.sp.jandira.model.Conta;
+public class App {
+
+	public static void main(String[] args) {
+		Conta contaMaria = new Conta();
+		Conta contaJoao = new Conta();
+	}
+	
+}
