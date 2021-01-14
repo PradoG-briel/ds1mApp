@@ -1,0 +1,42 @@
+#tabela{
+    width: 400px;
+    height: 400px;
+    border: solid 1px #000000;
+
+    /* centraliza um elemento */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linha{
+    height: 200px;
+}
+
+.coluna{
+    width: 200px;
+    border: solid 1px black;
+}
+
+/* poderiamos criar tambem as referencias pelo id da tabela */
+
+#tabela tr{
+    height: 200px;
+}
+
+#caixaPrincipal{
+    width: 400px;
+    height: 400px;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    /* border: solid 1px black; */
+    background-color: aqua;
+
+    /* permite alinhar elementos na horizontal */
+    float: left;
+}
