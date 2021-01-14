@@ -18,7 +18,7 @@ public class App {
 		contaJoao.numero = "200-96";
 		contaJoao.titular = "Joao Almeida";
 		contaJoao.mostrarSaldo();
-		contaJoao.tipo = "Poupança";
+		contaJoao.tipo = "PoupanÃ§a";
 		contaJoao.ativa = true;
 		contaJoao.depositar(200.0);
 		
