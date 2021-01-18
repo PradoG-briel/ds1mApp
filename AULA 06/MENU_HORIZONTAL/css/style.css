@@ -1,0 +1,74 @@
+body, ul, li{
+    margin: 0px;
+    padding: 0px;
+}
+
+#caixaMenu{
+    width: 600px;
+    height: 50px;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu{
+    width: 600px;
+    height: 50px;
+}
+
+.menuItem{
+    width: 120px;
+    height: 35px;
+    list-style: none;
+    float: left; /*Permite alinhar os elementos na horizontal*/
+    font-family: verdana;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 15px;
+    color: #ffffff;
+}
+
+.menuItem:hover{
+    background-color: blueviolet;
+    color: #ffffff;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.submenu{
+    width: 120px;
+    height: 300px;
+    background-color: blueviolet;
+    margin-top: 15px;
+    display: none;
+}
+.submenuItem{
+    width: 120px;
+    height: 35px;
+    list-style: none;
+    font-family: serif;
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+.submenuItem:hover{
+    background-color: #000000;
+    color: blueviolet;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.menuItem:hover > .submenu{
+    display: block;
+}
+
+
+
+
+
+
+
+
+

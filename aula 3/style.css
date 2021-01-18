@@ -1,0 +1,56 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.itens{
+    /* definir largura e altura dos itens da lista */
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+
+    /* permite alterar o tipo de marcador */
+    list-style: none;
+
+    padding-top: 5px;
+    padding-left: 10px;
+    border: solid 1px #ffffff;    
+}
+
+.destaque{
+    color: red;
+}
+
+#listaMaterias{
+    width: 250px;
+    height: 100px;
+    background-color: blueviolet;
+    color: aqua;
+}
+
+#listaMaterias li{
+    width: 150px;
+    height: 20px;
+    color: red;
+    padding-top: 5px;
+}
+

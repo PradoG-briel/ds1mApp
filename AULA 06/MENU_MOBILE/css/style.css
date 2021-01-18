@@ -1,0 +1,67 @@
+#body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#caixaMenu{
+    width: 800px;
+    height: 100px;
+}
+
+#iconeMenu{
+    width: 60px;
+    height: 50px;
+    background-image: url(../imagens/menu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#menu{
+    width: 500px;
+    height: 50px;
+    background-color: #000000;
+    margin-left: 60px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.menuItem{
+    width: 120px;
+    height: 35px;
+    font-family: cursive;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    float: left;
+}
+
+.menuItem:hover{
+    background-color: darkorange;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#iconeMenu:hover > #menu{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+}
+
+#iconeMenu:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

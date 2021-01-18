@@ -1,0 +1,35 @@
+.titulo{
+/*Troca a cor da letra (hexadecimal, ingles ou rgb)*/
+    color:rgb(47, 255, 220);
+/* troca o tipo da letra e seleciona de acordo com o navegador*/
+    font-family: cursive, arial, verdana;
+
+    font-size: 2em;
+
+    font-weight: bold;
+
+    font-style: italic;
+
+    text-align: center;
+
+    text-decoration: line-through;
+
+    text-transform: uppercase;
+
+    word-spacing: 10px;
+}
+.texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+
+/* aplica espaços entre as linhas do texto */
+    line-height: 1.5;
+
+
+
+}
+p::first-letter{
+    font-size: 1.7em;
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
