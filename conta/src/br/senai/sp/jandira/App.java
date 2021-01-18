@@ -3,30 +3,30 @@ package br.senai.sp.jandira;
 import br.senai.sp.jandira.model.Conta;
 
 public class App {
-
 	public static void main(String[] args) {
-		Conta contaMaria = new Conta();
+		
+		Conta contaAna = new Conta();
 		Conta contaJoao = new Conta();
-
-		contaMaria.numero = "100-85";
-		contaMaria.titular = "Maria da Silva";
-		contaMaria.mostrarSaldo();
-		contaMaria.tipo = "Corrente";
-		contaMaria.ativa = true;
-		contaMaria.depositar(100.0);
-
-		contaJoao.numero = "200-96";
-		contaJoao.titular = "Joao Almeida";
-		contaJoao.mostrarSaldo();
-		contaJoao.tipo = "Poupança";
-		contaJoao.ativa = true;
-		contaJoao.depositar(200.0);
 		
-		System.out.println("Titular: "+contaMaria.titular);
-		contaMaria.mostrarSaldo();
+		contaAna.titular = "Ana Gomes";
+		contaAna.numero = "111-98";
+		contaAna.tipo = "Corrente";
+		contaAna.ativa = true;		
+		contaAna.chequeEspecial = 200;
+		contaAna.depositar(100);
+		contaAna.mostrarSaldo();
+		contaAna.depositar(30);
+		contaAna.mostrarSaldo();
+		contaAna.sacar(50);
+		contaAna.mostrarSaldo();
+		contaAna.sacar(500);
+		contaAna.mostrarSaldo();
 		
-		System.out.println("Titular: "+contaJoao.titular);
-		contaJoao.mostrarSaldo();
 	}
-
+	
+	public void somar(int valor1, int valor2) {
+		int resultado = valor1 + valor2;
+		System.out.println(resultado);
+	}
+	
 }
